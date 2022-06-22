@@ -1,0 +1,2 @@
+class TopArtistlistsController < ApplicationController
+end

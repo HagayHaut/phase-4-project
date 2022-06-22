@@ -1,0 +1,2 @@
+class TopArtistlist < ApplicationRecord
+end

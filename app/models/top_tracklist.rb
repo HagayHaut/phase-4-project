@@ -1,0 +1,2 @@
+class TopTracklist < ApplicationRecord
+end
