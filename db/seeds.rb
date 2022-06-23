@@ -7,11 +7,61 @@
 #   Character.create(name: "Luke", movie: movies.first)
 User.destroy_all
 
-puts "Seeding now..."
+puts 'Seeding now...'
 
-u1 = User.create(name: "Johnny")
-u2 = User.create(name: "Sam")
-u3 = User.create(name: "Penelope")
+u1 = User.create(name: 'Johnny')
+u2 = User.create(name: 'Sam')
+u3 = User.create(name: 'Penelope')
 
-puts "Seeding done!"
+TopArtistlist.create(user: u2, artistlist:  ['Nick Cave & The Bad Seeds',
+                                             'Ichiko Aoba',
+                                             'Tim Hecker',
+                                             'The Lounge Lizards',
+                                             'John Coltrane',
+                                             'Rei Harakami',
+                                             'Big Thief',
+                                             'Luigi Tozzi',
+                                             'Animal Collective',
+                                             'Salamanda',
+                                             'Kate Bush',
+                                             'Wilco',
+                                             'Boris',
+                                             'caroline',
+                                             'Black Country, New Road',
+                                             'Steve Reich',
+                                             'Yo La Tengo',
+                                             'Fuubutsushi',
+                                             'Radiohead',
+                                             'Andrew Wasylyk',
+                                             'Park Jiha',
+                                             'Binker and Moses',
+                                             'The Beatles',
+                                             'Grandaddy',
+                                             'black midi',
+                                             'Grateful Dead',
+                                             'Kara-Lis Coverdale',
+                                             'Astrid Sonne',
+                                             'Tujiko Noriko',
+                                             'The Band',
+                                             'Nils Frahm',
+                                             'David Bowie',
+                                             'Milton Nascimento',
+                                             'Songs: Ohia',
+                                             'John Lurie',
+                                             'Sarah Davachi',
+                                             'Spangle Call Lilli Line',
+                                             'Laryssa Okada',
+                                             'Pharoah Sanders',
+                                             'Otoboke Beaver',
+                                             'Peel Dream Magazine',
+                                             'Ween',
+                                             'The Smile',
+                                             'Braid',
+                                             'Chet Baker',
+                                             'The Fall',
+                                             'SASAMI',
+                                             'Erik Hall',
+                                             'Nubya Garcia',
+                                             'Alabaster DePlume'])
 
+puts 'Seeding done!'

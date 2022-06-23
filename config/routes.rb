@@ -6,5 +6,5 @@ Rails.application.routes.draw do
 
   # Defines the root path route ("/")
   # root "articles#index"
-
+  get '/prev_top_artistlist/:id', to: 'top_artistlists#previous'
 end
